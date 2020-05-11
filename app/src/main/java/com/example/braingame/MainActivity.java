@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         if (start >= end) {
             return 0;
         }
+        Log.i("Message","Vikas");
         List<Integer> list = new ArrayList<>();
         for (int i = start + 1; i <= end; i++) {
             list.add(i);
